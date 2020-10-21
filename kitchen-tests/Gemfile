@@ -6,6 +6,6 @@ gem "ohai", git: "https://github.com/chef/ohai.git", branch: "master" # avoids f
 gem "kitchen-dokken", "~> 2.0"
 gem "kitchen-inspec", git: "https://github.com/chef/kitchen-inspec.git", branch: "master"
 gem "inspec"
-gem "chef-cli" # policyfile support
+gem "chef-dk" # policyfile support
 gem "test-kitchen", git: "https://github.com/test-kitchen/test-kitchen.git", branch: "chef-cli"
 gem "kitchen-azurerm", git: "https://github.com/test-kitchen/kitchen-azurerm.git", branch: "master"
